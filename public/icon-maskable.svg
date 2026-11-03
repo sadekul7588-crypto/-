@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="maskableBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="40%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <linearGradient id="sproutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background extending to all edges for Android adaptive masking -->
+  <rect width="512" height="512" fill="url(#maskableBg)" />
+
+  <!-- Agricultural Crop Emblem within 75% central Safe Zone -->
+  <g transform="translate(64, 64) scale(0.75)">
+    <!-- Rice stalk curves / Golden Harvest Ear -->
+    <path d="M256 390 C256 390 256 220 256 160 C256 120 280 80 320 70 C310 110 290 140 270 170 C260 185 258 240 256 390 Z" fill="url(#leafGrad)" />
+    
+    <!-- Left Sprout Leaf -->
+    <path d="M254 310 C200 300 130 250 120 180 C180 180 230 220 254 280 Z" fill="url(#sproutGrad)" />
+
+    <!-- Right Sprout Leaf -->
+    <path d="M258 270 C310 250 370 200 380 130 C320 140 280 180 258 240 Z" fill="url(#sproutGrad)" />
+
+    <!-- Golden Rice Grains -->
+    <ellipse cx="280" cy="115" rx="18" ry="9" transform="rotate(-35 280 115)" fill="#fef08a" />
+    <ellipse cx="305" cy="85" rx="16" ry="8" transform="rotate(-45 305 85)" fill="#fde047" />
+    <ellipse cx="250" cy="135" rx="18" ry="9" transform="rotate(35 250 135)" fill="#fef08a" />
+    <ellipse cx="230" cy="105" rx="16" ry="8" transform="rotate(45 230 105)" fill="#fde047" />
+
+    <!-- Base Soil Mound -->
+    <path d="M150 410 C180 395 220 390 256 390 C292 390 332 395 362 410 C340 430 300 440 256 440 C212 440 172 430 150 410 Z" fill="#14532d" />
+
+    <text x="256" y="445" font-family="'Hind Siliguri', 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="bold" fill="#fef08a" text-anchor="middle">সাদেকুল এগ্রো</text>
+  </g>
+</svg>

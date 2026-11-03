@@ -1,0 +1,8 @@
+{
+  "name": "Sadekul Agro Bangla",
+  "description": "সাদেকুল এগ্রো বাংলা - কৃষকদের জন্য আধুনিক ফসল চাষ, রোগবালাই দমন, সার পরিমাপক ও আবহাওয়া পূর্বাভাসের পূর্ণাঙ্গ বাংলা কৃষি অ্যাপ।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
